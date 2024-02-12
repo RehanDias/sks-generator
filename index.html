@@ -45,7 +45,9 @@
       /* Responsiveness */
       @media (max-width: 576px) {
         .display-2 {
-          font-size: 1.5rem; /* Ukuran font judul pada layar kecil */
+          font-size: 2.5rem; /* Atur ukuran font judul pada layar kecil */
+          margin-top: 2rem; /* Sesuaikan margin atas judul pada layar kecil */
+          margin-bottom: 2rem; /* Sesuaikan margin bawah judul pada layar kecil */
         }
 
         #randomButton {
@@ -59,6 +61,12 @@
 
         #notificationContainer {
           margin-top: 10px; /* Sesuaikan jarak antara tombol dan notifikasi pada layar kecil */
+        }
+
+        /* Atur ukuran font dan margin untuk notifikasi pada layar kecil */
+        #notificationContainer > div {
+          font-size: 0.8rem;
+          margin-bottom: 10px;
         }
       }
 
