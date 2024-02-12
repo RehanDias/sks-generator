@@ -22,6 +22,13 @@ const getRandomSICourses = (data) => {
     return !selectedCourses.some((course) => course.WAKTU === newCourse.WAKTU);
   };
 
+  // Fungsi untuk memeriksa apakah nama mata kuliah unik
+  const isUniqueCourse = (selectedCourses, newCourse) => {
+    return !selectedCourses.some(
+      (course) => course["NAMA MATA KULIAH"] === newCourse["NAMA MATA KULIAH"]
+    );
+  };
+
   while (
     randomSICourses.length < 6 &&
     siCourses.length > 0 &&
@@ -31,7 +38,8 @@ const getRandomSICourses = (data) => {
     const randomCourse = siCourses[randomIndex];
     if (
       !randomCourse["NAMA MATA KULIAH"].includes("AGAMA") &&
-      isUniqueTime(randomSICourses, randomCourse)
+      isUniqueTime(randomSICourses, randomCourse) &&
+      isUniqueCourse(randomSICourses, randomCourse)
     ) {
       randomSICourses.push(randomCourse);
       totalSKS += parseInt(randomCourse.SKS);
