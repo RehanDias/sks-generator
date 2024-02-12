@@ -20,34 +20,56 @@
           --bs-body-font-family
         ); /* Menggunakan font family Bootstrap */
       }
+
       #randomButtonContainer {
         margin-top: 20vh; /* Margin atas untuk container tombol generate */
         margin-bottom: 20px; /* Margin bawah untuk container tombol generate */
       }
+
       #randomButton {
         border-radius: 20px; /* Border radius untuk tombol generate */
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Efek bayangan pada tombol generate */
       }
+
       #courseDetailsBody {
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Efek bayangan pada bagian detail kursus */
       }
+
       @media (min-width: 768px) {
         #randomButtonContainer {
           margin-top: 10vh; /* Margin atas untuk container tombol generate pada layar besar */
           margin-bottom: 40px; /* Margin bawah untuk container tombol generate pada layar besar */
         }
       }
+
       /* Responsiveness */
       @media (max-width: 576px) {
         .display-2 {
-          font-size: 2rem; /* Ukuran font judul pada layar kecil */
+          font-size: 1.5rem; /* Ukuran font judul pada layar kecil */
         }
+
         #randomButton {
-          font-size: 1rem; /* Ukuran font tombol generate pada layar kecil */
-          padding: 10px 20px; /* Padding tombol generate pada layar kecil */
+          font-size: 0.8rem; /* Ukuran font tombol generate pada layar kecil */
+          padding: 8px 16px; /* Padding tombol generate pada layar kecil */
         }
+
         .table {
-          font-size: 0.8rem; /* Ukuran font tabel pada layar kecil */
+          font-size: 0.7rem; /* Ukuran font tabel pada layar kecil */
+        }
+
+        #notificationContainer {
+          margin-top: 10px; /* Sesuaikan jarak antara tombol dan notifikasi pada layar kecil */
+        }
+      }
+
+      /* Tambahan gaya untuk menyesuaikan tata letak tombol pada perangkat seluler */
+      @media (max-width: 576px) {
+        #randomButtonContainer {
+          text-align: center; /* Pusatkan tombol pada layar kecil */
+        }
+
+        #randomButton {
+          width: 100%; /* Tombol mengambil lebar penuh pada layar kecil */
         }
       }
     </style>
@@ -67,6 +89,8 @@
           GENERATE
         </button>
       </div>
+      <!-- Container untuk notifikasi -->
+      <div id="notificationContainer" class="text-center mt-3"></div>
       <!-- Daftar kursus (awalnya disembunyikan) -->
       <div id="courses" class="row" style="display: none">
         <div class="col">
