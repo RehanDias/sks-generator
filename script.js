@@ -64,7 +64,7 @@ const renderCourses = (courses) => {
 
 // Event listener for the "Dapatkan Random Course" button
 document.getElementById("randomButton").addEventListener("click", async () => {
-  const dataUrl = "./dataPlus5.json"; // URL to your JSON data file
+  const dataUrl = "dataPlus5.json"; // URL to your JSON data file
   const jsonData = await fetchData(dataUrl);
   const newCourses = getRandomSICourses(jsonData);
   renderCourses(newCourses);
