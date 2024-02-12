@@ -1,0 +1,462 @@
+[
+ {
+  "KODE ": "W182100010",
+  "NAMA MATA KULIAH": "ANALISA PERANCANGAN SISTEM INFORMASI",
+  "SKS": 3,
+  "KELAS": "2A3186BA",
+  "JURUSAN ": "SI",
+  "KAMPUS": "Meruya",
+  "WAKTU": "Sabtu, 09:30 - 11:59",
+  "RUANG": "C-311"
+ },
+ {
+  "KODE ": "W182100015",
+  "NAMA MATA KULIAH": "PEMODELAN PROSES BISNIS",
+  "SKS": 3,
+  "KELAS": "2A4186BA",
+  "JURUSAN ": "SI",
+  "KAMPUS": "Meruya",
+  "WAKTU": "Sabtu, 09:30 - 11:59",
+  "RUANG": "C-308"
+ },
+ {
+  "KODE ": "W182100032",
+  "NAMA MATA KULIAH": "PEMROGRAMAN MOBILE",
+  "SKS": 3,
+  "KELAS": "2A5186AA",
+  "JURUSAN ": "SI",
+  "KAMPUS": "Meruya",
+  "WAKTU": "Sabtu, 07:00 - 09:29",
+  "RUANG": "T-005"
+ },
+ {
+  "KODE ": "U002100004",
+  "NAMA MATA KULIAH": "PENDIDIKAN AGAMA BUDHA",
+  "SKS": 2,
+  "KELAS": "2A1612FF",
+  "JURUSAN ": "Psikologi",
+  "KAMPUS": "Meruya",
+  "WAKTU": "Selasa, 19:30 - 21:10",
+  "RUANG": "VE-018"
+ },
+ {
+  "KODE ": "U002100003",
+  "NAMA MATA KULIAH": "PENDIDIKAN AGAMA KHATOLIK",
+  "SKS": 2,
+  "KELAS": "2A1131FF",
+  "JURUSAN ": "Mesin",
+  "KAMPUS": "Meruya",
+  "WAKTU": "Senin, 19:30 - 21:10",
+  "RUANG": "C-308-1"
+ },
+ {
+  "KODE ": "U002100003",
+  "NAMA MATA KULIAH": "PENDIDIKAN AGAMA KHATOLIK",
+  "SKS": 2,
+  "KELAS": "2A1612FF",
+  "JURUSAN ": "Psikologi",
+  "KAMPUS": "Meruya",
+  "WAKTU": "Selasa, 19:30 - 21:10",
+  "RUANG": "C-317-1"
+ },
+ {
+  "KODE ": "U002100003",
+  "NAMA MATA KULIAH": "PENDIDIKAN AGAMA KHATOLIK",
+  "SKS": 2,
+  "KELAS": "2A2432FF",
+  "JURUSAN ": "Periklanan",
+  "KAMPUS": "Meruya",
+  "WAKTU": "Selasa, 19:30 - 22:00",
+  "RUANG": "E-203-1"
+ },
+ {
+  "KODE ": "U002100003",
+  "NAMA MATA KULIAH": "PENDIDIKAN AGAMA KHATOLIK",
+  "SKS": 2,
+  "KELAS": "2A1153FF",
+  "JURUSAN ": "TI",
+  "KAMPUS": "Meruya",
+  "WAKTU": "Rabu, 19:30 - 21:10",
+  "RUANG": "E-203-1"
+ },
+ {
+  "KODE ": "U002100002",
+  "NAMA MATA KULIAH": "PENDIDIKAN AGAMA PROTESTAN",
+  "SKS": 2,
+  "KELAS": "2A2311FF",
+  "JURUSAN ": "S1,Manajemen",
+  "KAMPUS": "Meruya",
+  "WAKTU": "Senin, 19:30 - 21:10",
+  "RUANG": "A-304-1"
+ },
+ {
+  "KODE ": "U002100002",
+  "NAMA MATA KULIAH": "PENDIDIKAN AGAMA PROTESTAN",
+  "SKS": 2,
+  "KELAS": "2A1612FF",
+  "JURUSAN ": "Psikologi",
+  "KAMPUS": "Meruya",
+  "WAKTU": "Selasa, 19:30 - 21:10",
+  "RUANG": "C-312-1"
+ },
+ {
+  "KODE ": "U002100002",
+  "NAMA MATA KULIAH": "PENDIDIKAN AGAMA PROTESTAN",
+  "SKS": 2,
+  "KELAS": "2A2412FF",
+  "JURUSAN ": "Penyiaran",
+  "KAMPUS": "Meruya",
+  "WAKTU": "Selasa, 19:30 - 21:10",
+  "RUANG": "E-404-1"
+ },
+ {
+  "KODE ": "U002100002",
+  "NAMA MATA KULIAH": "PENDIDIKAN AGAMA PROTESTAN",
+  "SKS": 2,
+  "KELAS": "2A1153FF",
+  "JURUSAN ": "TI",
+  "KAMPUS": "Meruya",
+  "WAKTU": "Rabu, 19:30 - 21:10",
+  "RUANG": "B-405-1"
+ },
+ {
+  "KODE ": "U002100008",
+  "NAMA MATA KULIAH": "KEWARGANEGARAAN",
+  "SKS": 2,
+  "KELAS": "2A2161FF",
+  "JURUSAN ": "Industri",
+  "KAMPUS": "Meruya",
+  "WAKTU": "Senin, 19:30 - 21:10",
+  "RUANG": "D-303-1"
+ },
+ {
+  "KODE ": "U002100008",
+  "NAMA MATA KULIAH": "KEWARGANEGARAAN",
+  "SKS": 2,
+  "KELAS": "2A2231FF",
+  "JURUSAN ": "S1,Komvi",
+  "KAMPUS": "Meruya",
+  "WAKTU": "Senin, 19:30 - 21:10",
+  "RUANG": "C-304-1"
+ },
+ {
+  "KODE ": "U002100008",
+  "NAMA MATA KULIAH": "KEWARGANEGARAAN",
+  "SKS": 2,
+  "KELAS": "2A6121FF",
+  "JURUSAN ": "Arsitektur",
+  "KAMPUS": "Meruya",
+  "WAKTU": "Senin, 19:30 - 21:10",
+  "RUANG": "C-113-1"
+ },
+ {
+  "KODE ": "U002100008",
+  "NAMA MATA KULIAH": "KEWARGANEGARAAN",
+  "SKS": 2,
+  "KELAS": "2A1322FF",
+  "JURUSAN ": "S1,Akuntansi",
+  "KAMPUS": "Meruya",
+  "WAKTU": "Selasa, 19:30 - 21:10",
+  "RUANG": "B-203-1"
+ },
+ {
+  "KODE ": "U002100008",
+  "NAMA MATA KULIAH": "KEWARGANEGARAAN",
+  "SKS": 2,
+  "KELAS": "2A2192FF",
+  "JURUSAN ": "S1,Despro",
+  "KAMPUS": "Meruya",
+  "WAKTU": "Selasa, 19:30 - 21:10",
+  "RUANG": "E-409-1"
+ },
+ {
+  "KODE ": "U002100008",
+  "NAMA MATA KULIAH": "KEWARGANEGARAAN",
+  "SKS": 2,
+  "KELAS": "2A4152FF",
+  "JURUSAN ": "TI",
+  "KAMPUS": "Meruya",
+  "WAKTU": "Selasa, 19:30 - 22:00",
+  "RUANG": "VT-012"
+ },
+ {
+  "KODE ": "U002100008",
+  "NAMA MATA KULIAH": "KEWARGANEGARAAN",
+  "SKS": 2,
+  "KELAS": "2A2313FF",
+  "JURUSAN ": "S1,Manajemen",
+  "KAMPUS": "Meruya",
+  "WAKTU": "Rabu, 19:30 - 21:10",
+  "RUANG": "A-404-1"
+ },
+ {
+  "KODE ": "U002100008",
+  "NAMA MATA KULIAH": "KEWARGANEGARAAN",
+  "SKS": 2,
+  "KELAS": "2A2613FF",
+  "JURUSAN ": "Psikologi",
+  "KAMPUS": "Meruya",
+  "WAKTU": "Rabu, 19:30 - 21:10",
+  "RUANG": "A-406-1"
+ },
+ {
+  "KODE ": "U002100008",
+  "NAMA MATA KULIAH": "KEWARGANEGARAAN",
+  "SKS": 2,
+  "KELAS": "2A4183FF",
+  "JURUSAN ": "SI",
+  "KAMPUS": "Meruya",
+  "WAKTU": "Rabu, 19:30 - 21:10",
+  "RUANG": "C-419-1"
+ },
+ {
+  "KODE ": "U002100008",
+  "NAMA MATA KULIAH": "KEWARGANEGARAAN",
+  "SKS": 2,
+  "KELAS": "2A5423FF",
+  "JURUSAN ": "Humas",
+  "KAMPUS": "Meruya",
+  "WAKTU": "Rabu, 19:30 - 21:10",
+  "RUANG": "E-502-1"
+ },
+ {
+  "KODE ": "W182100022",
+  "NAMA MATA KULIAH": "KOMUNIKASI DAN ETIKA PROFESI",
+  "SKS": 3,
+  "KELAS": "2A4181FF",
+  "JURUSAN ": "SI",
+  "KAMPUS": "Meruya",
+  "WAKTU": "Senin, 19:30 - 22:00",
+  "RUANG": "D-201-1"
+ },
+ {
+  "KODE ": "F062100006",
+  "NAMA MATA KULIAH": "PEMROGRAMAN PL\/SQL",
+  "SKS": 3,
+  "KELAS": "2A5186BA",
+  "JURUSAN ": "SI",
+  "KAMPUS": "Meruya",
+  "WAKTU": "Sabtu, 09:30 - 11:59",
+  "RUANG": "T-005"
+ },
+ {
+  "KODE ": "W182100014",
+  "NAMA MATA KULIAH": "PEMROGRAMAN WEB ENTERPRISE (LAB)",
+  "SKS": 3,
+  "KELAS": "2A4186CA",
+  "JURUSAN ": "SI",
+  "KAMPUS": "Meruya",
+  "WAKTU": "Sabtu, 12:00 - 14:29",
+  "RUANG": "D-205"
+ },
+ {
+  "KODE ": "W182100011",
+  "NAMA MATA KULIAH": "STATISTIKA LANJUT",
+  "SKS": 3,
+  "KELAS": "2A4186AA",
+  "JURUSAN ": "SI",
+  "KAMPUS": "Meruya",
+  "WAKTU": "Sabtu, 07:00 - 09:29",
+  "RUANG": "C-308"
+ },
+ {
+  "KODE ": "P182100001",
+  "NAMA MATA KULIAH": "ARSITEKTUR ENTERPRISE DAN E-BUSINESS",
+  "SKS": 3,
+  "KELAS": "2A5186CA",
+  "JURUSAN ": "SI",
+  "KAMPUS": "Meruya",
+  "WAKTU": "Sabtu, 12:00 - 14:29",
+  "RUANG": "D-304"
+ },
+ {
+  "KODE ": "P182100002",
+  "NAMA MATA KULIAH": "DISASTER RECOVERY CENTER (DRC) \/ BUSINESS CONTINUITY PLAN (BCP)",
+  "SKS": 3,
+  "KELAS": "2A6186BF",
+  "JURUSAN ": "SI",
+  "KAMPUS": "Meruya",
+  "WAKTU": "Sabtu, 09:30 - 11:59",
+  "RUANG": "VT-015"
+ },
+ {
+  "KODE ": "P182100005",
+  "NAMA MATA KULIAH": "KECERDASAN BISNIS",
+  "SKS": 3,
+  "KELAS": "2A5182FF",
+  "JURUSAN ": "SI",
+  "KAMPUS": "Meruya",
+  "WAKTU": "Selasa, 19:30 - 22:00",
+  "RUANG": "VT-013"
+ },
+ {
+  "KODE ": "U002100011",
+  "NAMA MATA KULIAH": "KEWIRAUSAHAAN I",
+  "SKS": 2,
+  "KELAS": "2A2121FF",
+  "JURUSAN ": "Arsitektur",
+  "KAMPUS": "Meruya",
+  "WAKTU": "Senin, 19:00 - 21:10",
+  "RUANG": "C-106-1"
+ },
+ {
+  "KODE ": "U002100011",
+  "NAMA MATA KULIAH": "KEWIRAUSAHAAN I",
+  "SKS": 2,
+  "KELAS": "2A3161FF",
+  "JURUSAN ": "Industri",
+  "KAMPUS": "Meruya",
+  "WAKTU": "Senin, 19:30 - 21:10",
+  "RUANG": "D-304-1"
+ },
+ {
+  "KODE ": "U002100011",
+  "NAMA MATA KULIAH": "KEWIRAUSAHAAN I",
+  "SKS": 2,
+  "KELAS": "2A2612FF",
+  "JURUSAN ": "Psikologi",
+  "KAMPUS": "Meruya",
+  "WAKTU": "Selasa, 19:30 - 21:10",
+  "RUANG": "B-306-1"
+ },
+ {
+  "KODE ": "U002100011",
+  "NAMA MATA KULIAH": "KEWIRAUSAHAAN I",
+  "SKS": 2,
+  "KELAS": "2A5152FF",
+  "JURUSAN ": "TI",
+  "KAMPUS": "Meruya",
+  "WAKTU": "Selasa, 19:30 - 21:10",
+  "RUANG": "D-408-1"
+ },
+ {
+  "KODE ": "U002100011",
+  "NAMA MATA KULIAH": "KEWIRAUSAHAAN I",
+  "SKS": 2,
+  "KELAS": "2A6182FF",
+  "JURUSAN ": "SI",
+  "KAMPUS": "Meruya",
+  "WAKTU": "Selasa, 19:30 - 21:10",
+  "RUANG": "VE-054"
+ },
+ {
+  "KODE ": "U002100011",
+  "NAMA MATA KULIAH": "KEWIRAUSAHAAN I",
+  "SKS": 2,
+  "KELAS": "2A2133FF",
+  "JURUSAN ": "Mesin",
+  "KAMPUS": "Meruya",
+  "WAKTU": "Rabu, 19:30 - 21:10",
+  "RUANG": "D-306-1"
+ },
+ {
+  "KODE ": "U002100011",
+  "NAMA MATA KULIAH": "KEWIRAUSAHAAN I",
+  "SKS": 2,
+  "KELAS": "2A2193FF",
+  "JURUSAN ": "S1,Despro",
+  "KAMPUS": "Meruya",
+  "WAKTU": "Rabu, 19:30 - 21:10",
+  "RUANG": "E-503-1"
+ },
+ {
+  "KODE ": "U002100011",
+  "NAMA MATA KULIAH": "KEWIRAUSAHAAN I",
+  "SKS": 2,
+  "KELAS": "2A2323FF",
+  "JURUSAN ": "S1,Akuntansi",
+  "KAMPUS": "Meruya",
+  "WAKTU": "Rabu, 19:30 - 21:10",
+  "RUANG": "B-202-1"
+ },
+ {
+  "KODE ": "U002100011",
+  "NAMA MATA KULIAH": "KEWIRAUSAHAAN I",
+  "SKS": 2,
+  "KELAS": "2A4143FF",
+  "JURUSAN ": "Elektro",
+  "KAMPUS": "Meruya",
+  "WAKTU": "Rabu, 19:30 - 21:10",
+  "RUANG": "E-201-1"
+ },
+ {
+  "KODE ": "U002100011",
+  "NAMA MATA KULIAH": "KEWIRAUSAHAAN I",
+  "SKS": 2,
+  "KELAS": "2A4233FF",
+  "JURUSAN ": "S1,Komvi",
+  "KAMPUS": "Meruya",
+  "WAKTU": "Rabu, 19:30 - 21:10",
+  "RUANG": "T-308-1"
+ },
+ {
+  "KODE ": "U002100011",
+  "NAMA MATA KULIAH": "KEWIRAUSAHAAN I",
+  "SKS": 2,
+  "KELAS": "2A5183FF",
+  "JURUSAN ": "SI",
+  "KAMPUS": "Meruya",
+  "WAKTU": "Rabu, 19:30 - 21:10",
+  "RUANG": "B-406-1"
+ },
+ {
+  "KODE ": "U002100011",
+  "NAMA MATA KULIAH": "KEWIRAUSAHAAN I",
+  "SKS": 2,
+  "KELAS": "2A3316AA",
+  "JURUSAN ": "S1,Manajemen",
+  "KAMPUS": "Meruya",
+  "WAKTU": "Sabtu, 07:00 - 08:40",
+  "RUANG": "B-204"
+ },
+ {
+  "KODE ": "W182100019",
+  "NAMA MATA KULIAH": "MANAJEMEN PROYEK SISTEM INFORMASI",
+  "SKS": 3,
+  "KELAS": "2A5181FF",
+  "JURUSAN ": "SI",
+  "KAMPUS": "Meruya",
+  "WAKTU": "Senin, 19:30 - 22:00",
+  "RUANG": "D-203"
+ },
+ {
+  "KODE ": "P182100006",
+  "NAMA MATA KULIAH": "PEMROGRAMAN DATA ANALITIK I",
+  "SKS": 3,
+  "KELAS": "2A5186CA",
+  "JURUSAN ": "SI",
+  "KAMPUS": "Meruya",
+  "WAKTU": "Sabtu, 12:00 - 14:29",
+  "RUANG": "D-307"
+ },
+ {
+  "KODE ": "P182100003",
+  "NAMA MATA KULIAH": "TATA KELOLA TI",
+  "SKS": 3,
+  "KELAS": "2A5182FF",
+  "JURUSAN ": "SI",
+  "KAMPUS": "Meruya",
+  "WAKTU": "Selasa, 19:30 - 22:00",
+  "RUANG": "B-406-1"
+ },
+ {
+  "KODE ": "W182100017",
+  "NAMA MATA KULIAH": "UI\/UX (LAB)",
+  "SKS": 3,
+  "KELAS": "2A6186AF",
+  "JURUSAN ": "SI",
+  "KAMPUS": "Meruya",
+  "WAKTU": "Sabtu, 07:00 - 09:29",
+  "RUANG": "D-201"
+ },
+ {
+  "KODE ": "P182100004",
+  "NAMA MATA KULIAH": "VISUALISASI DATA",
+  "SKS": 3,
+  "KELAS": "2A6186CF",
+  "JURUSAN ": "SI",
+  "KAMPUS": "Meruya",
+  "WAKTU": "Sabtu, 12:00 - 14:29",
+  "RUANG": "VT-016"
+ }
+]
