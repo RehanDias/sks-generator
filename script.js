@@ -67,16 +67,16 @@ const renderCourses = (courses) => {
 
   // Tambahkan teks notifikasi hanya jika belum ditampilkan sebelumnya
   if (!notificationDisplayed) {
-    const generateButtonContainer = document.getElementById(
-      "randomButtonContainer"
+    const notificationContainer = document.getElementById(
+      "notificationContainer"
     );
     const notification = document.createElement("div");
     notification.textContent =
       "Catatan: Jam malam dalam data telah diubah menjadi 21:30, berbeda dari WEB-SIA (21:10 dan 22:00).";
     notification.style.color = "red";
     notification.style.fontWeight = "bold"; // Buat teks tebal
-    notification.style.marginTop = "10px"; // Sesuaikan margin untuk jarak
-    generateButtonContainer.appendChild(notification);
+    notification.style.marginBottom = "30px"; // Sesuaikan margin untuk jarak
+    notificationContainer.appendChild(notification); // Masukkan notifikasi ke dalam kontainer
     notificationDisplayed = true; // Tandai notifikasi telah ditampilkan
   }
 };
