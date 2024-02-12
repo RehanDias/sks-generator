@@ -1,9 +1,9 @@
-// Function to fetch JSON data
+// Fungsi untuk mengambil data JSON
 const fetchData = async (url) => {
   try {
     const response = await fetch(url);
     if (!response.ok) {
-      throw new Error("Failed to fetch data");
+      throw new Error("Gagal mengambil data");
     }
     return await response.json();
   } catch (error) {
@@ -11,12 +11,13 @@ const fetchData = async (url) => {
   }
 };
 
-// Function to get random SI courses
+// Fungsi untuk mendapatkan sks SI secara acak
 const getRandomSICourses = (data) => {
   let randomSICourses = [];
   let totalSKS = 0;
   const siCourses = data.filter((course) => course["JURUSAN "] === "SI");
 
+  // Fungsi untuk memeriksa apakah waktu sks unik
   const isUniqueTime = (selectedCourses, newCourse) => {
     return !selectedCourses.some((course) => course.WAKTU === newCourse.WAKTU);
   };
@@ -41,10 +42,13 @@ const getRandomSICourses = (data) => {
   return randomSICourses;
 };
 
-// Function to render courses on the webpage
+// Variabel global untuk melacak apakah notifikasi telah ditampilkan
+let notificationDisplayed = false;
+
+// Fungsi untuk merender sks pada halaman web
 const renderCourses = (courses) => {
   const coursesBody = document.getElementById("courseDetailsBody");
-  coursesBody.innerHTML = ""; // Clear existing courses
+  coursesBody.innerHTML = ""; // Hapus sks yang ada
 
   courses.forEach((course) => {
     const row = coursesBody.insertRow();
@@ -58,17 +62,32 @@ const renderCourses = (courses) => {
     `;
   });
 
-  // Menampilkan div dengan id 'courses'
+  // Tampilkan div dengan id 'courses'
   document.getElementById("courses").style.display = "block";
+
+  // Tambahkan teks notifikasi hanya jika belum ditampilkan sebelumnya
+  if (!notificationDisplayed) {
+    const generateButtonContainer = document.getElementById(
+      "randomButtonContainer"
+    );
+    const notification = document.createElement("div");
+    notification.textContent =
+      "Catatan: Jam malam dalam data telah diubah menjadi 21:30, berbeda dari WEB-SIA (21:10 dan 22:00).";
+    notification.style.color = "red";
+    notification.style.fontWeight = "bold"; // Buat teks tebal
+    notification.style.marginTop = "10px"; // Sesuaikan margin untuk jarak
+    generateButtonContainer.appendChild(notification);
+    notificationDisplayed = true; // Tandai notifikasi telah ditampilkan
+  }
 };
 
-// Event listener for the "Dapatkan Random Course" button
+// Event listener untuk tombol "Dapatkan Random Course"
 document.getElementById("randomButton").addEventListener("click", async () => {
-  const dataUrl = "dataPlus5.json"; // URL to your JSON data file
+  const dataUrl = "./dataPlus5.json"; // URL ke file data JSON
   const jsonData = await fetchData(dataUrl);
   const newCourses = getRandomSICourses(jsonData);
   renderCourses(newCourses);
 
-  // Menghapus gaya CSS dari #randomButtonContainer setelah tombol diklik
+  // Hapus gaya CSS dari #randomButtonContainer setelah tombol diklik
   document.getElementById("randomButtonContainer").style.marginTop = "0";
 });
